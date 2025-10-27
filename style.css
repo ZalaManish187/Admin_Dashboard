@@ -494,9 +494,9 @@ main .recent-order a{
         height:100vh;
         padding-right: var(--card-padding);
         display: none;
-        animation: ShowMenu 400ms ease;
+        animation: sideMenu 400ms forwards;
     }
-    @keyframes ShowMenu {
+    @keyframes sideMenu {
         to{
             left:0;
         }
