@@ -536,6 +536,9 @@ main .recent-order a{
         width:100%;
         margin:0;
     }
+     main .insights {
+    grid-template-columns: 1fr;
+  }
     .right{
         width:94%;
         margin:0 auto 4rem;
