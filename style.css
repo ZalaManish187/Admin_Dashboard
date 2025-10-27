@@ -52,6 +52,7 @@ body{
     margin:0 auto;
     gap:1.8rem;
     grid-template-columns: 14rem auto 23rem;
+    margin:0 auto;
 }
 a{
     color:var(--color-dark);
@@ -441,7 +442,7 @@ main .recent-order a{
 @media screen and(max-width:1200px){
     .container{
         width:94%;
-        grid-template-columns: 7rem auto 23rem;
+        grid-template-columns: 7rem auto 20rem;
     }
     aside .logo h2{
         display:none;
@@ -483,7 +484,7 @@ main .recent-order a{
 @media screen and (max-width:768px) {
     .container{
         width:100%;
-        grid-template-columns: 1fr;
+        grid-template-columns:1fr;
     }
     aside{
         position:fixed;
